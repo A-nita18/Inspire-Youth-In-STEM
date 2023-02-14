@@ -10,6 +10,7 @@ print("His height is :",height)
 #characters- Alpha numeric(a b c...A B C...0 1 2 ...), special characters(@ $ !...)
 physics_grade = "A"
 print("My physics grade was :",physics_grade)
+#strings are words and sentences
 f_name = "Anita"
 s_name = "Sofia"
 print(" The fist number is :",f_number)
