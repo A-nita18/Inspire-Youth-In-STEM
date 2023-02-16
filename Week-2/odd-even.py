@@ -24,7 +24,8 @@ for i in range(2,101):
         print(i,end=",")
 
 #write a program to do arithmetic progression of numbers from 1 -100
-number = 0
+ap = 0
 for i in range(0,101):
-    ap = number + i
+    ap = ap + i
+
 print(ap)
