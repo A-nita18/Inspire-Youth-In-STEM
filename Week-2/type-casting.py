@@ -3,7 +3,7 @@
 #Name : Anita Sofia 
 #Email : anitasofia254@gmail.com
 #Date : 17th Feb 2023
-#File : operators.py
+#File : type-casting.py
 
 height = 34.78  #float
 
@@ -13,7 +13,7 @@ h = int(height)
 number = 34
 n2 = float(number)
 
-# int() float() str() char()
+# int() float() str() 
 
 #size of the variable
 #Size in bytes

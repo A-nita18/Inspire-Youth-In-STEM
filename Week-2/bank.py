@@ -13,4 +13,12 @@
 #5% if income is less than 100k 
 
 #print gross income , net income
-income = input("Enter your income: ")
+income = int(input("Enter your income: "))
+if income <= 100000:
+    net_income = income*0.95
+elif income < 300000:
+    net_income = income*0.81
+else:
+    net_income = income*0.7
+
+print("Gross income: " + str(income) + " Net income: " + str(net_income))
