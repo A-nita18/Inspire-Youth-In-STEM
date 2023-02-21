@@ -1,3 +1,10 @@
+#!/usr/bin/env/python3
+#python programs to create lists
+#Name : Anita Sofia 
+#Email : anitasofia254@gmail.com
+#Date : 21st Feb 2023
+#File : assignment.py
+
 #Create an empty list of favourite musicians.
 #Using for loop add 5 new musicans.
 #Copy the list to a new list called celebs.
@@ -19,7 +26,7 @@ print(celebs)
 celebs.sort()
 print(celebs)
 
-celebs.pop()
+celebs.pop(3)
 celebs.pop()
 
 print(celebs)
