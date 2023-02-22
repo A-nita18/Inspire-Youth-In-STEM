@@ -1,5 +1,5 @@
 # import module
-from tabulate import tabulate
+import tabulate
  
 # assign data
 mydata = [

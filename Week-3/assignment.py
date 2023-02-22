@@ -26,7 +26,7 @@ print(celebs)
 celebs.sort()
 print(celebs)
 
-celebs.pop(3)
+celebs.pop()
 celebs.pop()
 
 print(celebs)
