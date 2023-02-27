@@ -1,9 +1,10 @@
 #Print factorials of a number using functions,for loops
 
 def factorial(n):
-    for i in range(0,n):
-        fact_n = n * (n-i)
-        return fact_n
+    factorial = 1
+    for i in range(n):
+        factorial *= 1 + i
+    return factorial
 
 print(factorial(3))
 print(factorial(6))
@@ -17,6 +18,8 @@ def simple_interest(principle,rate,time):
 
 simple_interest(24000,10,2)
 
-def linear_Equation(m,x,c):
+def linear_equation(m,x,c):
     y = (m * x) *c
-    return y
+    print(y)
+
+linear_equation(4,6,8)

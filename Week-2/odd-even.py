@@ -24,8 +24,11 @@ for i in range(2,101):
         print(i,end=",")
 
 #write a program to do arithmetic progression of numbers from 1 -100
-ap = 0
-for i in range(0,101):
-    ap = ap + i
+#ap = a1 + (n-1)*d
 
+a1 = int(input("Enter a1: "))
+n = int(input("Enter n: "))
+d = int(input("Enter common difference: "))
+
+ap = a1 +(n-1)*d
 print(ap)
