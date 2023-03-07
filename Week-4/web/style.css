@@ -1,0 +1,57 @@
+.body{ 
+    background-color:coral;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:bold;
+    font-size:12px;
+}
+  
+h1{
+    font-size:20px;
+    color: black;
+    align-content: center;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+}
+h2{
+    font-size:25px;
+    color: black;
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h3{
+    font-size:25px;
+    color: black;
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+h4{
+    font-size:25px;
+    color: black;
+    align-content: center;
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+
+#msg_button{
+    color:#f8b7ef;
+    margin:30px;
+    align-self: center;
+    background-color:#790155;
+    border:none;
+    border-radius:20px ;
+}
+#email_button{
+    color:burlywood;
+    margin:30px;
+    align-self: center;
+    background-color:darksalmon;
+    border:none;
+    border-radius:20px ;
+
+}
+p{
+    background-color:darkslategray;
+    color: aqua;
+    font-size:large;
+    align-self:auto ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
