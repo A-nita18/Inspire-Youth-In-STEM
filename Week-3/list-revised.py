@@ -1,4 +1,4 @@
-# !/usr/bin/env/python3
+#!/usr/bin/env/python3
 #python programs to illustrate lists
 #Name : Anita Sofia 
 #Email : anitasofia254@gmail.com

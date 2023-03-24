@@ -1,0 +1,89 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.header{
+    min-height: 100vh;
+    width: 100%;
+    background-image: url(images/banner.png);
+    background-position: center;
+    background-size:cover;
+    position: relative;
+}
+.nav{
+    display: flex;
+    padding: 2% 6%;
+    align-self: center;
+}
+nav img{
+    width: 150px;
+
+}
+.navlinks{
+    flex: 1;
+    text-align: right;
+}
+.navlinks li{
+    color: coral;
+    font-size: 20px;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.navlinks ul li{
+    list-style: none;
+    display: contents;
+    padding: 8px 12px;
+    position: relative;
+    color:indianred;
+}
+.navlinks ul li a{
+    color: rgb(227, 234, 240);
+    text-decoration: none;
+    font-size: 13;
+}
+#main{
+    color:darkslategrey;
+    font-family:cursive;
+}
+.text-box{
+    color:black;
+    text-align: center;
+    font-size: larger;
+}
+.hero-btn{
+    display: inline-block;
+    text-decoration: none;
+    color: bisque;
+    border: 1px solid bisque ;
+    padding: 12px 34px;
+    background: transparent;
+    position: relative;
+    cursor: pointer;
+}
+.button{
+    text-align: center;
+}
+.images{
+    align-self:center;
+    display: inline;block
+    text-align: center;
+    padding:350px
+}
+#image2{
+    width: 200px;
+    min-height:100v ;
+    background: transparent;
+    position: relative;
+}
+#image3{
+    width: 200px;
+    min-height:100v ;
+    background: transparent;
+    align-content: center;
+}
+#image4{
+    width: 200px;
+    min-height:100v ;
+    background: transparent;
+    align-content:right;
+}
+

@@ -1,3 +1,10 @@
+#!/usr/bin/env/python3
+#python programs to create lists
+#Name : Anita Sofia 
+#Email : anitasofia254@gmail.com
+#Date : 21st Feb 2023
+#File : assignment.py
+
 import math
 
 #using math libraries

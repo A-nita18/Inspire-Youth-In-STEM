@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head id="header">
+    <link rel="stylesheet" href="style.css">
+    <h1 id="head" >SPOTIFY</h1>
+  </head>
+  <body>
+    <div id="musicians-container">
+      <div class="musician">
+        <img src="assets/sautisol.jpg" alt="Musician 1"><br>
+        <audio src="assets/sautisolsong.mp3"></audio>
+        <button class="play">Play</button>
+        <button class="stop">Stop</button><br><br>
+      </div>
+      <div class="musician">
+        <img src="assets/tauren.jpg" alt="Musician 2"><br>
+        <audio src="assets/taurensong.mp3"></audio>
+        <button class="play">Play</button>
+        <button class="stop">Stop</button><br><br>
+      </div>
+      <div class="musician">
+        <img src="assets/arianna3.jpg" alt="Musician 3"><br>
+        <audio src="assets/ariannasong.mp3"></audio>
+        <button class="play">Play</button>
+        <button class="stop">Stop</button>
+      </div>
+    </div>
+    <script>
+      // Get all musician elements
+const musicians = document.querySelectorAll('.musician');
+
+// Add event listeners to all musician elements
+musicians.forEach((musician) => {
+  const audio = musician.querySelector('audio');
+  const playButton = musician.querySelector('.play');
+  const stopButton = musician.querySelector('.stop');
+  
+  // Play button event listener
+  playButton.addEventListener('click', () => {
+    audio.play();
+  });
+  
+  // Stop button event listener
+  stopButton.addEventListener('click', () => {
+    audio.pause();
+    audio.currentTime = 0;
+  });
+});
+    </script>
+  </body>
+</html>
+
+  
+

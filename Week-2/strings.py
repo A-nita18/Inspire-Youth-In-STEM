@@ -20,4 +20,4 @@ print("My name is " + full_name + " and I am " + str(age) + " years old")
 print("My name is {} and I am {} years old".format(full_name, str(age)))
 
 print("Hello from Dokja \n How are you?\n I am fine")
-print("Hello from Dokja \t How are you?\t I am fine")
+print("Hello from Dokja \t sHow are you?\t I am fine")

@@ -6,7 +6,8 @@
 #File : file.py
 
 #exception handling
-
+f = open('C:\\Users\\hp\\Documents\\Inspire-Youth-In-STEM\\Week-4\\test.txt')
+goprint(f.readline())
 
 f = open(r'C:\Users\hp\Documents\Inspire-Youth-In-STEM\Week-4\test.txt')
 print(f.readline())

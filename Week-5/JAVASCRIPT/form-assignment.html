@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style2.css">
+    </head>
+    <body>
+        <h1 id="text">Tumblr Registration Form</h1>
+        <h1 id="f_name"></h1>
+        <h1 id="s_name"></h1>
+        <h1 id="age"></h1>
+        <h1 id="number"></h1>
+        <h1 id="email"></h1>
+        <h1 id="msg"></h1>
+
+       
+            <form >
+                    <label for="f_name">First Name</label>
+                    <input type="text" id="f_name" name="fname" size="30"><br>
+
+                    <label for="s_name">Last Name</label>
+                    <input type="text" id="s_name" name="fname" size="30"><br>
+
+                    <label for="age">Age</label>
+                    <input type="text" id="age" name="" size="30"><br>
+                    
+                    <label for="number">Phone Number</label>
+                    <input type="text" id="number">
+                    <br>
+                    <label for="Email">Email</label>
+                    <input type="text" name="" id="Email">
+                    <br><br>
+            </form>
+            <button type="button" onclick="say()" id="button">Register</button>
+            <div id="statement"></div>
+            <script>
+                function say() {
+                    var name = document.getElementById("f_name").value;
+                    var name = document.getElementById("s_name").value;
+                    var name = document.getElementById("age").value;
+                    var name = document.getElementById("number").value;
+                    var name = document.getElementById("Email").value;
+
+
+                    if (age >= 18){
+                        document.getElementById("statement").innerHTML = "Welcome to Tumblr."
+                    } else{
+                        document.getElementById("statement").innerHTML = "Sorry, You are too young to join."
+                    }
+
+                } 
+            </script>           
+    </body>
+</html>

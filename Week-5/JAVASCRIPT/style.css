@@ -1,0 +1,14 @@
+*{
+    color: coral;
+    background-color: darkolivegreen;
+}
+#play{
+    text-align: center;
+    border-radius: 20px;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    padding: 40px;
+    margin: 40px;
+}
